@@ -254,9 +254,19 @@ table {
     width: 500px;
 }
 
+iframe {
+    display: inline block;
+    width: 550px;
+}
+section {
+    float: right;
+    width: 50%;
+}
 
-aside {
-    display: flex;
+
+aside div {
+display: inline-block;
+width: 33%;
 }
 
 }
