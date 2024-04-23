@@ -16,12 +16,14 @@ hr {
   display: none;
 } /* rimuove l'elemento */
 
-
-
 /* HEADER */
 header {
   background: rgb(0, 160, 198);
-  background: linear-gradient(180deg, rgba(0, 160, 198, 1) 0%, rgba(3, 109, 134, 1) 68%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 160, 198, 1) 0%,
+    rgba(3, 109, 134, 1) 68%
+  );
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -133,12 +135,12 @@ h1 {
   margin-bottom: 0.7em;
 }
 .underline {
- display: inline;
- background-image: url(../img/underline.svg);
- background-repeat: no-repeat;
- background-position: bottom;
- background-size: 100%;
- padding-bottom: 2px;
+  display: inline;
+  background-image: url(../img/underline.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  padding-bottom: 2px;
 }
 
 p,
@@ -348,7 +350,11 @@ aside div p:last-child {
 /* FOOTER */
 footer {
   background: rgb(53, 53, 53);
-  background: linear-gradient(0deg, rgba(53, 53, 53, 1) 0%, rgba(5, 85, 103, 1) 68%);
+  background: linear-gradient(
+    0deg,
+    rgba(53, 53, 53, 1) 0%,
+    rgba(5, 85, 103, 1) 68%
+  );
   box-shadow: 0 3px 3px #444;
   color: #f0f0f0;
   padding: 1em;
@@ -356,19 +362,19 @@ footer {
   font-size: 1.2rem;
 }
 #arrow {
-    position: fixed;
-    bottom: 20px;  /* Distanza dal fondo della viewport */
-    right: 20px;   /* Distanza dal lato destro della viewport */
-    padding: 10px;
-    background-color: #ff00f7;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    z-index: 1;
+  position: fixed;
+  bottom: 20px; /* Distanza dal fondo della viewport */
+  right: 20px; /* Distanza dal lato destro della viewport */
+  padding: 10px;
+  background-color: #ff00f7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
 }
 .card {
-  position: relative; 
+  position: relative;
 }
 
 .card .fas.fa-tag {
@@ -378,8 +384,6 @@ footer {
   font-size: 65px; /* Dimensione dell'icona */
   color: #bcbcbc; /* Colore dell'icona */
 }
-
-
 
 @media screen and (min-width: 800px) {
   footer {
