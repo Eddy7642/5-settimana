@@ -1,0 +1,71 @@
+/******** Header ********/
+header {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+background-color: beige;
+}
+
+header nav{
+    display: flex;
+    height: 50%;
+    padding: 1px;
+    
+}
+header nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+.box {
+    display: flex;
+    list-style: none;
+    background-color: yellow;
+    width: 80px;
+    margin: 10px;
+    padding: 0.5em;
+    border-radius: 20px;
+}
+.box a {
+    text-decoration: none;
+}
+/******** Main *****/
+h1 {
+    display: flex;
+    justify-content:space-around;
+}
+
+main {
+display: flex;
+margin-left: 100px;
+
+}
+article.card {
+    display: flex;
+    flex-direction: column;
+     width: 200px;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    margin: 1em; 
+}
+.text-container {
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.text-container button {
+    background-color: yellow;
+    border: 0.5px solid lightgray;
+    border-radius: 30px;
+}
+section {
+    background-color: beige;
+    display: flex;
+}
